@@ -170,3 +170,52 @@ img {
   font-family: "Open Sans", sans-serif;
   font-size: .7rem;
 }
+
+/* GetAccess */
+.access-section {
+  background-color: hsl(238, 22%, 44%);
+  margin-top: 5em;
+  padding: 3em 0;
+}
+.access-container {
+  width: 80%;
+  margin: auto;
+}
+
+.access-container h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.access-container p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+.access-container form input {
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 1em;
+}
+.access-container form input::placeholder {
+  color: rgb(209, 207, 207);
+  font-family: "Open Sans", sans-serif;
+}
+.access-container form button {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 1em 0;
+  width: 89%;
+}
