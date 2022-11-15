@@ -10,9 +10,9 @@ export default function HeroComponent() {
             All your files in one secure location, accessible anywhere.
           </h1>
           <p className="hero-text">
-            Fylos stores your most important files in one secure location.
-            Access them wherever you need, share and collaborate with friends,
-            family, and co-workers.
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
           </p>
           <form>
             <input type="text" placeholder="Enter your email..." />
