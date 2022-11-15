@@ -3,8 +3,38 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .App {
   text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+/* NavComponent */ 
+.section-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  padding: 2em 0;
+}
+.section-nav > div:nth-child(1) {
+  width: 35%;
+}
+.section-nav img {
+  width: 100%;
+}
+.section-nav ul {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.section-nav ul li {
+  margin-left: 1em;
 }
