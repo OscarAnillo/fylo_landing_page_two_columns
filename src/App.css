@@ -38,3 +38,45 @@ img {
 .section-nav ul li {
   margin-left: 1em;
 }
+
+/* HeroComponent */
+.hero-container {
+  width: 90%;
+  margin: auto;
+}
+.hero-container > div:nth-child(1) {
+  padding-bottom: 1.5em;
+}
+.hero-title {
+  color: rgb(6, 3, 58);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+.hero-text {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 1.5em;
+}
+.hero form input {
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  width: 90%;
+}
+.hero form input::placeholder {
+  color: rgb(209, 207, 207);
+  font-family: 'Open Sans', sans-serif;
+}
+.hero form button {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1em 0;
+  width: 100%;
+}
