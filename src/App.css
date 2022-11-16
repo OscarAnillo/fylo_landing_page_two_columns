@@ -43,6 +43,7 @@ img {
 .hero-container {
   width: 90%;
   margin: auto;
+  position: relative;
 }
 .hero-container > div:nth-child(1) {
   padding-bottom: 1.5em;
@@ -79,6 +80,15 @@ img {
   font-size: 1rem;
   padding: 1em 0;
   width: 100%;
+}
+.hero .error {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  position: absolute;
+  top: 88.3%;
+  left: 5px;
 }
 
 
@@ -180,6 +190,7 @@ img {
 .access-container {
   width: 80%;
   margin: auto;
+  position: relative;
 }
 
 .access-container h1 {
@@ -218,6 +229,15 @@ img {
   font-weight: 700;
   padding: 1em 0;
   width: 89%;
+}
+
+.access-container .error {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  position: absolute;
+  top: 76.3%;
 }
 
 /* FooterComponent */
@@ -331,6 +351,12 @@ img {
   .hero form button:hover {
     background: rgb(107, 155, 255);
     cursor: pointer;
+  }
+
+  .hero .error {
+    font-size: 1rem;
+    top: 75%;
+    left: 0px;
   }
 
   
@@ -469,6 +495,7 @@ img {
     padding: 1.3em 1em;
     width: 80%;
     margin-bottom: 1.5em;
+    outline: none;
   }
   .access-container form input::placeholder {
     color: rgb(209, 207, 207);
@@ -488,7 +515,16 @@ img {
     background: rgb(107, 155, 255);
     cursor: pointer;
   }
-
+  .access-container .error {
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    position: absolute;
+    top: 41%;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
   
   /* FooterComponent */
   .footer {
