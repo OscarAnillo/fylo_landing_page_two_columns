@@ -47,12 +47,10 @@ export default function HeroComponent() {
       ".input",
       {
         opacity: 0,
-        x: -40,
         duration: 0.5,
       },
       {
         opacity: 1,
-        x: 0,
         duration: 0.5,
       }
     );
@@ -60,16 +58,14 @@ export default function HeroComponent() {
       ".button",
       {
         opacity: 0,
-        x: 40,
         duration: 0.5,
       },
       {
         opacity: 1,
-        x: 0,
         duration: 0.5,
       }
     );
-  }, [tl]);
+  }, []);
 
   const changeHandler = (e) => {
     const { name, value } = e.target;
