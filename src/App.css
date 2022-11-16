@@ -1,8 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .App {
   text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+/* NavComponent */ 
+.section-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  padding: 2em 0 5em 0;
+}
+.section-nav > div:nth-child(1) {
+  width: 35%;
+}
+.section-nav img {
+  width: 100%;
+}
+.section-nav ul {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.section-nav ul li {
+  margin-left: 1em;
+}
+
+/* HeroComponent */
+.hero-container {
+  width: 90%;
+  margin: auto;
+}
+.hero-container > div:nth-child(1) {
+  padding-bottom: 1.5em;
+}
+.hero-title {
+  color: rgb(6, 3, 58);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1em;
+}
+.hero-text {
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 1.5em;
+}
+.hero form input {
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  width: 90%;
+}
+.hero form input::placeholder {
+  color: rgb(209, 207, 207);
+  font-family: 'Open Sans', sans-serif;
+}
+.hero form button {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1em 0;
+  width: 100%;
+}
+
+
+/* ProductivityComponent */ 
+.productivity-bg {
+  background-image: url("/public/images/bg-curve-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  margin-top: 6em;
+}
+.productivity-container {
+  width: 90%;
+  margin: auto;
+}
+
+.productivity-container .logo-2 {
+  padding: 5em 0;
+}
+.productivity-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-bottom: 1em;
+}
+.productivity-container p {
+  color: rgb(149, 146, 163);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: .9rem;
+  line-height: 1.7em;
+  text-align: left;
+  padding-bottom: 1em;
+}
+.productivity-container button {
+  border: none;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  background-color: transparent;
+  color: hsl(170, 45%, 43%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 2.5em 0 .5em 0;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 2em auto;
+}
+
+/* Testimonial */
+.testimonial {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgb(243, 242, 248);
+  padding: 1.6em 0;
+  text-align: left;
+}
+.testimonial-container {
+  width: 85%;
+  margin: auto;
+}
+.quotes {
+  padding-bottom: 1em;
+}
+.testimonial-container .testimonial-text {
+  color: rgb(15, 13, 37);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: .8rem;
+  padding-bottom: 1em;
+}
+.testimonial-row {
+  display: flex;
+  align-items: center;
+  margin-top: .5em;
+}
+.testimonial-row > div:nth-child(1) {
+  height: 60px;
+  width: 50px;
+  margin-right: .8em;
+}
+.avatar {
+  border-radius: 100px;
+}
+.testimonial-row h3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+.testimonial-row p {
+  font-family: "Open Sans", sans-serif;
+  font-size: .7rem;
+}
+
+/* GetAccess */
+.access-section {
+  background-color: hsl(238, 22%, 44%);
+  margin-top: 5em;
+  padding: 3em 0;
+}
+.access-container {
+  width: 80%;
+  margin: auto;
+}
+
+.access-container h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.access-container p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  width: 95%;
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+.access-container form input {
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  width: 80%;
+  margin-bottom: 1em;
+}
+.access-container form input::placeholder {
+  color: rgb(209, 207, 207);
+  font-family: "Open Sans", sans-serif;
+}
+.access-container form button {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(224, 93%, 58%);
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  padding: 1em 0;
+  width: 89%;
+}
+
+/* FooterComponent */
+.footer {
+  background-color: rgb(6, 3, 58);
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  padding-bottom: 1em;
+}
+.footer-section {
+  width: 70%;
+  margin: auto;
+  padding-top: 3em;
+}
+.footer-section > div {
+  margin-bottom: 2em;
+}
+.footer-section .logo {
+  margin-bottom: 3em;
+  filter: invert(100%);
+}
+.footer-inner-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-inner-row > div {
+  margin: 0 1em 1em 0;
+}
+
+.footer-section ul li {
+  margin-bottom: .7em;
+}
+.socials {
+  margin-top: 4.5em;
+  text-align: center;
+}
+.socials svg {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  margin: 0 .5em;
+  padding: .5em;
 }
