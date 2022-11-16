@@ -326,6 +326,11 @@ img {
     font-size: 1rem;
     padding: .85em 0;
     width: 30%;
+    transition: background .3s;
+  }
+  .hero form button:hover {
+    background: rgb(107, 155, 255);
+    cursor: pointer;
   }
 
   
@@ -373,8 +378,13 @@ img {
     align-items: center;
     justify-content: space-between;
     margin: 0 0 2.5em 0;
+    transition: color .3s;
   }
-
+  .productivity-container button:hover {
+    color: aquamarine;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #333;
+  }
   
   /* Testimonial */
   .testimonial {
@@ -472,6 +482,11 @@ img {
     font-weight: 700;
     padding: 1.3em 0;
     width: 35%;
+    transition: background .3s;
+  }
+  .access-container form button:hover {
+    background: rgb(107, 155, 255);
+    cursor: pointer;
   }
 
   
@@ -509,6 +524,11 @@ img {
 
   .footer-section ul li {
     margin-bottom: .7em;
+    transition: color .3s;
+  }
+  .footer-section ul li:hover {
+    color: rgb(110, 123, 193);
+    cursor: pointer;
   }
   .socials {
     margin-top: 0;
@@ -519,6 +539,11 @@ img {
     border-radius: 50px;
     margin: 0 .5em;
     padding: .5em;
+    transition: color .3s;
   }
-
+  .socials svg:hover {
+    border: 1px solid rgb(110, 123, 193);
+    color: rgb(110, 123, 193);
+    cursor: pointer;
+  }
 }
