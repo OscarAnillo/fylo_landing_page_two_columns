@@ -65,6 +65,7 @@ export default function HeroComponent() {
         duration: 0.5,
       }
     );
+    // eslint-disable-next-line
   }, []);
 
   const changeHandler = (e) => {
